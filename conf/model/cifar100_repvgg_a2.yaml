@@ -1,0 +1,3 @@
+lr: 0.1
+name: cifar100_repvgg_a2
+pretrained: false

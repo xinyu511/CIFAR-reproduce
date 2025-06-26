@@ -1,0 +1,7 @@
+defaults:
+  - datamodule: cifar10
+  - model: cifar10_resnet20
+  - trainer: default
+
+seed: 42        # global seed
+test_after_fit: true

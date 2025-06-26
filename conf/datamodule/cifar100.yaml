@@ -1,0 +1,4 @@
+_target_: data_module.CIFAR100DataModule
+data_dir: data/cifar100
+batch_size: 256
+num_workers: 4

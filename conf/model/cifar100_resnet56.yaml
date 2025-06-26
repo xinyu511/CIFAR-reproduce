@@ -1,0 +1,3 @@
+lr: 0.1
+name: cifar100_resnet56
+pretrained: false

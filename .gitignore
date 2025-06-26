@@ -1,0 +1,23 @@
+# ─── Python template (truncated to key lines) ──────────────────────
+__pycache__/
+*.py[cod]
+*.so
+.ipynb_checkpoints
+.mypy_cache/
+.pytest_cache/
+# … full template lines omitted for brevity …
+
+# ─── Project-specific additions ────────────────────────────────────
+# experiment outputs
+outputs/
+lightning_logs/
+
+# local datasets & checkpoints
+data/
+
+# Hydra multirun folders (if you use them)
+multirun/
+
+# large model files you might drop in later
+*.pt
+*.pth
